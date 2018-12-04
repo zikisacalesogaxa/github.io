@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Copperplate";
+  src: url("/fonts/copperplate/CopperplateGothic-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Copperplate";
+  src: url("/fonts/copperplate/CopperplateGothic-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Copperplate";
+  src: url("/fonts/copperplate/CopperplateGothic.ttf") format("ttf");
+  font-weight: 100;
+  font-style: normal; }
+
+html,
+body {
+  font-family: "Copperplate";
+  background-color: #fafafa;
+  margin: 0px;
+  color: #4A4A4A; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  margin-bottom: 0;
+  font-style: normal; }
+
+a {
+  text-decoration: none;
+  color: #4A4A4A; }
+  a:hover {
+    text-decoration: underline; }
+  a.router-link-exact-active, a.router-link-active {
+    text-decoration: underline; }
+
+h1 {
+  font-size: 48px;
+  line-height: 48px; }
+
+h2, h3, h4, h5, h6, p, a {
+  font-size: 16px;
+  line-height: 32PX;
+  font-weight: 100; }
+
+* {
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear; }

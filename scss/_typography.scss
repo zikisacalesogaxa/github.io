@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/copperplate/CopperplateGothic-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/copperplate/CopperplateGothic-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Copperplate";
+    src: url("/fonts/copperplate/CopperplateGothic.ttf") format("ttf");
+    font-weight: 100;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: "Copperplate";
+    background-color: $light-grey;
+    margin: 0px;
+    color: $black;
+}
+
+h1, h2, h3,h4, h5, h6, p, a {
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+		text-decoration: underline;
+    }
+    
+    &.router-link-exact-active,
+	&.router-link-active {
+		text-decoration: underline;
+	}
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+h2, h3,h4, h5, h6, p, a {
+    font-size: 16px;
+    line-height: 32PX;
+    font-weight: 100;
+}
